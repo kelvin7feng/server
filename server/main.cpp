@@ -6,10 +6,18 @@
 //  Copyright © 2016年 kelvin. All rights reserved.
 //
 
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <uv.h>
+#include "tcp_base_server.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#define LOCAL_SERVER_PORT 7000
+
+int main() {
+    uv_loop_t *loop = uv_default_loop();
+    TCPBaseServer *server = TCPBaseServer::get_instance();
+    server->init(loop, "0.0.0.0", LOCAL_SERVER_PORT);
+    
+    return uv_run(loop, UV_RUN_DEFAULT);
 }

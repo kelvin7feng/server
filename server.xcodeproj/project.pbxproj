@@ -7,7 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6091CBB1DABD09E00ABF7D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CBA1DABD09E00ABF7D0 /* main.cpp */; };
+		B607886A1DAE5D970089A30C /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60788691DAE5D970089A30C /* liblua.a */; };
+		B607886B1DAE5DAA0089A30C /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60788691DAE5D970089A30C /* liblua.a */; };
+		B607886C1DAE5DAA0089A30C /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60788691DAE5D970089A30C /* liblua.a */; };
+		B60788701DAE5E240089A30C /* klua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B607886E1DAE5E240089A30C /* klua.cpp */; };
+		B60788721DAE60050089A30C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091DBE1DAD15BE00ABF7D0 /* main.cpp */; };
+		B60788741DAE60390089A30C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091DBC1DAD15AE00ABF7D0 /* main.cpp */; };
+		B60788751DAE67110089A30C /* klua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B607886E1DAE5E240089A30C /* klua.cpp */; };
+		B60788761DAE67120089A30C /* klua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B607886E1DAE5E240089A30C /* klua.cpp */; };
+		B6091CC91DABD1B100ABF7D0 /* google.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = B6091CC61DABD1B100ABF7D0 /* google.pb.cc */; };
+		B6091CD21DABD1C000ABF7D0 /* gateway_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCA1DABD1C000ABF7D0 /* gateway_server.cpp */; };
+		B6091CD31DABD1C000ABF7D0 /* tcp_base_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCC1DABD1C000ABF7D0 /* tcp_base_server.cpp */; };
+		B6091CD41DABD1C000ABF7D0 /* tcp_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCE1DABD1C000ABF7D0 /* tcp_client.cpp */; };
+		B6091CD51DABD1C000ABF7D0 /* tcp_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CD01DABD1C000ABF7D0 /* tcp_session.cpp */; };
+		B6091CDE1DABD68C00ABF7D0 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6091CDC1DABD68C00ABF7D0 /* libprotobuf.a */; };
+		B6091CDF1DABD68C00ABF7D0 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6091CDD1DABD68C00ABF7D0 /* libuv.a */; };
+		B6091D231DABDD8E00ABF7D0 /* game_logic_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091D211DABDD8E00ABF7D0 /* game_logic_server.cpp */; };
+		B6091D281DABE00600ABF7D0 /* tcp_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CD01DABD1C000ABF7D0 /* tcp_session.cpp */; };
+		B6091D2A1DABE00600ABF7D0 /* google.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = B6091CC61DABD1B100ABF7D0 /* google.pb.cc */; };
+		B6091D2B1DABE00600ABF7D0 /* game_logic_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091D211DABDD8E00ABF7D0 /* game_logic_server.cpp */; };
+		B6091D2C1DABE00600ABF7D0 /* gateway_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCA1DABD1C000ABF7D0 /* gateway_server.cpp */; };
+		B6091D2D1DABE00600ABF7D0 /* tcp_base_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCC1DABD1C000ABF7D0 /* tcp_base_server.cpp */; };
+		B6091D2E1DABE00600ABF7D0 /* tcp_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCE1DABD1C000ABF7D0 /* tcp_client.cpp */; };
+		B6091D301DABE00600ABF7D0 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6091CDC1DABD68C00ABF7D0 /* libprotobuf.a */; };
+		B6091D311DABE00600ABF7D0 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6091CDD1DABD68C00ABF7D0 /* libuv.a */; };
+		B6091DAA1DAD147300ABF7D0 /* tcp_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CD01DABD1C000ABF7D0 /* tcp_session.cpp */; };
+		B6091DAB1DAD147300ABF7D0 /* google.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = B6091CC61DABD1B100ABF7D0 /* google.pb.cc */; };
+		B6091DAC1DAD147300ABF7D0 /* game_logic_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091D211DABDD8E00ABF7D0 /* game_logic_server.cpp */; };
+		B6091DAD1DAD147300ABF7D0 /* gateway_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCA1DABD1C000ABF7D0 /* gateway_server.cpp */; };
+		B6091DAF1DAD147300ABF7D0 /* tcp_base_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCC1DABD1C000ABF7D0 /* tcp_base_server.cpp */; };
+		B6091DB01DAD147300ABF7D0 /* tcp_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091CCE1DABD1C000ABF7D0 /* tcp_client.cpp */; };
+		B6091DB21DAD147300ABF7D0 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6091CDC1DABD68C00ABF7D0 /* libprotobuf.a */; };
+		B6091DB31DAD147300ABF7D0 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6091CDD1DABD68C00ABF7D0 /* libuv.a */; };
+		B6091DBB1DAD14A100ABF7D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6091DBA1DAD14A100ABF7D0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +52,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		B6091D321DABE00600ABF7D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B6091DB41DAD147300ABF7D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B60788671DAE5D2A0089A30C /* lua-5.3.3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "lua-5.3.3"; sourceTree = "<group>"; };
+		B60788691DAE5D970089A30C /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.a; path = lib/liblua.a; sourceTree = "<group>"; };
+		B607886E1DAE5E240089A30C /* klua.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = klua.cpp; path = common/klua.cpp; sourceTree = "<group>"; };
+		B607886F1DAE5E240089A30C /* klua.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = klua.hpp; path = common/klua.hpp; sourceTree = "<group>"; };
+		B60788711DAE5F380089A30C /* main.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.lua; path = script/main.lua; sourceTree = "<group>"; };
 		B6091CB71DABD09E00ABF7D0 /* server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = server; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6091CBA1DABD09E00ABF7D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B6091CC61DABD1B100ABF7D0 /* google.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = google.pb.cc; path = protobuf/google.pb.cc; sourceTree = "<group>"; };
+		B6091CC71DABD1B100ABF7D0 /* google.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = google.pb.h; path = protobuf/google.pb.h; sourceTree = "<group>"; };
+		B6091CC81DABD1B100ABF7D0 /* google.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = google.proto; path = protobuf/google.proto; sourceTree = "<group>"; };
+		B6091CCA1DABD1C000ABF7D0 /* gateway_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gateway_server.cpp; path = tcp/gateway_server.cpp; sourceTree = "<group>"; };
+		B6091CCB1DABD1C000ABF7D0 /* gateway_server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = gateway_server.hpp; path = tcp/gateway_server.hpp; sourceTree = "<group>"; };
+		B6091CCC1DABD1C000ABF7D0 /* tcp_base_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcp_base_server.cpp; path = tcp/tcp_base_server.cpp; sourceTree = "<group>"; };
+		B6091CCD1DABD1C000ABF7D0 /* tcp_base_server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = tcp_base_server.hpp; path = tcp/tcp_base_server.hpp; sourceTree = "<group>"; };
+		B6091CCE1DABD1C000ABF7D0 /* tcp_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcp_client.cpp; path = tcp/tcp_client.cpp; sourceTree = "<group>"; };
+		B6091CCF1DABD1C000ABF7D0 /* tcp_client.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = tcp_client.hpp; path = tcp/tcp_client.hpp; sourceTree = "<group>"; };
+		B6091CD01DABD1C000ABF7D0 /* tcp_session.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcp_session.cpp; path = tcp/tcp_session.cpp; sourceTree = "<group>"; };
+		B6091CD11DABD1C000ABF7D0 /* tcp_session.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = tcp_session.hpp; path = tcp/tcp_session.hpp; sourceTree = "<group>"; };
+		B6091CDC1DABD68C00ABF7D0 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = lib/libprotobuf.a; sourceTree = "<group>"; };
+		B6091CDD1DABD68C00ABF7D0 /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuv.a; path = lib/libuv.a; sourceTree = "<group>"; };
+		B6091CE01DABD8DB00ABF7D0 /* google */ = {isa = PBXFileReference; lastKnownFileType = folder; path = google; sourceTree = "<group>"; };
+		B6091D211DABDD8E00ABF7D0 /* game_logic_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = game_logic_server.cpp; path = tcp/game_logic_server.cpp; sourceTree = "<group>"; };
+		B6091D221DABDD8E00ABF7D0 /* game_logic_server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = game_logic_server.hpp; path = tcp/game_logic_server.hpp; sourceTree = "<group>"; };
+		B6091D361DABE00600ABF7D0 /* gateway */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gateway; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6091DB81DAD147300ABF7D0 /* logic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = logic; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6091DBA1DAD14A100ABF7D0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = logic/main.cpp; sourceTree = "<group>"; };
+		B6091DBC1DAD15AE00ABF7D0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = gateway/main.cpp; sourceTree = "<group>"; };
+		B6091DBE1DAD15BE00ABF7D0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,15 +107,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B607886A1DAE5D970089A30C /* liblua.a in Frameworks */,
+				B6091CDE1DABD68C00ABF7D0 /* libprotobuf.a in Frameworks */,
+				B6091CDF1DABD68C00ABF7D0 /* libuv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6091D2F1DABE00600ABF7D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B607886B1DAE5DAA0089A30C /* liblua.a in Frameworks */,
+				B6091D301DABE00600ABF7D0 /* libprotobuf.a in Frameworks */,
+				B6091D311DABE00600ABF7D0 /* libuv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6091DB11DAD147300ABF7D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B607886C1DAE5DAA0089A30C /* liblua.a in Frameworks */,
+				B6091DB21DAD147300ABF7D0 /* libprotobuf.a in Frameworks */,
+				B6091DB31DAD147300ABF7D0 /* libuv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60788681DAE5D660089A30C /* script */ = {
+			isa = PBXGroup;
+			children = (
+				B60788711DAE5F380089A30C /* main.lua */,
+			);
+			name = script;
+			sourceTree = "<group>";
+		};
+		B607886D1DAE5E160089A30C /* common */ = {
+			isa = PBXGroup;
+			children = (
+				B607886E1DAE5E240089A30C /* klua.cpp */,
+				B607886F1DAE5E240089A30C /* klua.hpp */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
 		B6091CAE1DABD09E00ABF7D0 = {
 			isa = PBXGroup;
 			children = (
+				B607886D1DAE5E160089A30C /* common */,
+				B60788681DAE5D660089A30C /* script */,
+				B60788671DAE5D2A0089A30C /* lua-5.3.3 */,
+				B6091DB91DAD148200ABF7D0 /* logic */,
+				B6091D371DABE02A00ABF7D0 /* gateway */,
+				B6091CE01DABD8DB00ABF7D0 /* google */,
+				B6091CC51DABD19200ABF7D0 /* protobuf */,
+				B6091CC31DABD15700ABF7D0 /* tcp */,
+				B6091CC21DABD15000ABF7D0 /* lib */,
 				B6091CB91DABD09E00ABF7D0 /* server */,
 				B6091CB81DABD09E00ABF7D0 /* Products */,
 			);
@@ -50,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				B6091CB71DABD09E00ABF7D0 /* server */,
+				B6091D361DABE00600ABF7D0 /* gateway */,
+				B6091DB81DAD147300ABF7D0 /* logic */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +183,62 @@
 		B6091CB91DABD09E00ABF7D0 /* server */ = {
 			isa = PBXGroup;
 			children = (
-				B6091CBA1DABD09E00ABF7D0 /* main.cpp */,
+				B6091DBE1DAD15BE00ABF7D0 /* main.cpp */,
 			);
 			path = server;
+			sourceTree = "<group>";
+		};
+		B6091CC21DABD15000ABF7D0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B60788691DAE5D970089A30C /* liblua.a */,
+				B6091CDC1DABD68C00ABF7D0 /* libprotobuf.a */,
+				B6091CDD1DABD68C00ABF7D0 /* libuv.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		B6091CC31DABD15700ABF7D0 /* tcp */ = {
+			isa = PBXGroup;
+			children = (
+				B6091CCA1DABD1C000ABF7D0 /* gateway_server.cpp */,
+				B6091CCB1DABD1C000ABF7D0 /* gateway_server.hpp */,
+				B6091CCC1DABD1C000ABF7D0 /* tcp_base_server.cpp */,
+				B6091CCD1DABD1C000ABF7D0 /* tcp_base_server.hpp */,
+				B6091CCE1DABD1C000ABF7D0 /* tcp_client.cpp */,
+				B6091CCF1DABD1C000ABF7D0 /* tcp_client.hpp */,
+				B6091CD01DABD1C000ABF7D0 /* tcp_session.cpp */,
+				B6091CD11DABD1C000ABF7D0 /* tcp_session.hpp */,
+				B6091D211DABDD8E00ABF7D0 /* game_logic_server.cpp */,
+				B6091D221DABDD8E00ABF7D0 /* game_logic_server.hpp */,
+			);
+			name = tcp;
+			sourceTree = "<group>";
+		};
+		B6091CC51DABD19200ABF7D0 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				B6091CC61DABD1B100ABF7D0 /* google.pb.cc */,
+				B6091CC71DABD1B100ABF7D0 /* google.pb.h */,
+				B6091CC81DABD1B100ABF7D0 /* google.proto */,
+			);
+			name = protobuf;
+			sourceTree = "<group>";
+		};
+		B6091D371DABE02A00ABF7D0 /* gateway */ = {
+			isa = PBXGroup;
+			children = (
+				B6091DBC1DAD15AE00ABF7D0 /* main.cpp */,
+			);
+			name = gateway;
+			sourceTree = "<group>";
+		};
+		B6091DB91DAD148200ABF7D0 /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				B6091DBA1DAD14A100ABF7D0 /* main.cpp */,
+			);
+			name = logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +259,40 @@
 			name = server;
 			productName = server;
 			productReference = B6091CB71DABD09E00ABF7D0 /* server */;
+			productType = "com.apple.product-type.tool";
+		};
+		B6091D261DABE00600ABF7D0 /* gateway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6091D331DABE00600ABF7D0 /* Build configuration list for PBXNativeTarget "gateway" */;
+			buildPhases = (
+				B6091D271DABE00600ABF7D0 /* Sources */,
+				B6091D2F1DABE00600ABF7D0 /* Frameworks */,
+				B6091D321DABE00600ABF7D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gateway;
+			productName = server;
+			productReference = B6091D361DABE00600ABF7D0 /* gateway */;
+			productType = "com.apple.product-type.tool";
+		};
+		B6091DA81DAD147300ABF7D0 /* logic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6091DB51DAD147300ABF7D0 /* Build configuration list for PBXNativeTarget "logic" */;
+			buildPhases = (
+				B6091DA91DAD147300ABF7D0 /* Sources */,
+				B6091DB11DAD147300ABF7D0 /* Frameworks */,
+				B6091DB41DAD147300ABF7D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = logic;
+			productName = server;
+			productReference = B6091DB81DAD147300ABF7D0 /* logic */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,6 +322,8 @@
 			projectRoot = "";
 			targets = (
 				B6091CB61DABD09E00ABF7D0 /* server */,
+				B6091D261DABE00600ABF7D0 /* gateway */,
+				B6091DA81DAD147300ABF7D0 /* logic */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +333,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6091CBB1DABD09E00ABF7D0 /* main.cpp in Sources */,
+				B6091CD51DABD1C000ABF7D0 /* tcp_session.cpp in Sources */,
+				B6091CC91DABD1B100ABF7D0 /* google.pb.cc in Sources */,
+				B6091D231DABDD8E00ABF7D0 /* game_logic_server.cpp in Sources */,
+				B6091CD21DABD1C000ABF7D0 /* gateway_server.cpp in Sources */,
+				B6091CD31DABD1C000ABF7D0 /* tcp_base_server.cpp in Sources */,
+				B60788701DAE5E240089A30C /* klua.cpp in Sources */,
+				B60788721DAE60050089A30C /* main.cpp in Sources */,
+				B6091CD41DABD1C000ABF7D0 /* tcp_client.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6091D271DABE00600ABF7D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6091D281DABE00600ABF7D0 /* tcp_session.cpp in Sources */,
+				B6091D2A1DABE00600ABF7D0 /* google.pb.cc in Sources */,
+				B6091D2B1DABE00600ABF7D0 /* game_logic_server.cpp in Sources */,
+				B6091D2C1DABE00600ABF7D0 /* gateway_server.cpp in Sources */,
+				B60788741DAE60390089A30C /* main.cpp in Sources */,
+				B6091D2D1DABE00600ABF7D0 /* tcp_base_server.cpp in Sources */,
+				B60788751DAE67110089A30C /* klua.cpp in Sources */,
+				B6091D2E1DABE00600ABF7D0 /* tcp_client.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6091DA91DAD147300ABF7D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6091DAA1DAD147300ABF7D0 /* tcp_session.cpp in Sources */,
+				B6091DAB1DAD147300ABF7D0 /* google.pb.cc in Sources */,
+				B6091DAC1DAD147300ABF7D0 /* game_logic_server.cpp in Sources */,
+				B6091DAD1DAD147300ABF7D0 /* gateway_server.cpp in Sources */,
+				B6091DAF1DAD147300ABF7D0 /* tcp_base_server.cpp in Sources */,
+				B6091DBB1DAD14A100ABF7D0 /* main.cpp in Sources */,
+				B60788761DAE67120089A30C /* klua.cpp in Sources */,
+				B6091DB01DAD147300ABF7D0 /* tcp_client.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +461,14 @@
 		B6091CBF1DABD09E00ABF7D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/lua-5.3.3/src/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +476,74 @@
 		B6091CC01DABD09E00ABF7D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/lua-5.3.3/src/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6091D341DABE00600ABF7D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/lua-5.3.3/src/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6091D351DABE00600ABF7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/lua-5.3.3/src/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6091DB61DAD147300ABF7D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/lua-5.3.3/src/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6091DB71DAD147300ABF7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/lua-5.3.3/src/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +567,25 @@
 				B6091CC01DABD09E00ABF7D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6091D331DABE00600ABF7D0 /* Build configuration list for PBXNativeTarget "gateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6091D341DABE00600ABF7D0 /* Debug */,
+				B6091D351DABE00600ABF7D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6091DB51DAD147300ABF7D0 /* Build configuration list for PBXNativeTarget "logic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6091DB61DAD147300ABF7D0 /* Debug */,
+				B6091DB71DAD147300ABF7D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

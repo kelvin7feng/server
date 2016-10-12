@@ -4,8 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>gateway.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>logic.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>server.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -13,6 +27,51 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B6091CB61DABD09E00ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091CE51DABDADB00ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091CF01DABDAFD00ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091CF81DABDC0600ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091D0E1DABDCF500ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091D191DABDD5000ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091D261DABE00600ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091D3A1DABE14000ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091D961DAD11CA00ABF7D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6091DA81DAD147300ABF7D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
